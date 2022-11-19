@@ -36,13 +36,12 @@ class Main {
         ArrayList <Inventory> Item = new ArrayList <>();
 
         while(choice != 5){
-            System.out.println("""
-                    Press 1 to add an item.
-                    Press 2 to delete an item.
-                    Press 3 to update an item.
-                    Press 4 to show all the items.
-                    Press 5 to quit the program.
-                               """);
+            System.out.println(
+                    "Press 1 to add an item.\n" +
+                    "Press 2 to delete an item.\n" +
+                    "Press 3 to update an item.\n" +
+                    "Press 4 to show all the items.\n" +
+                    "Press 5 to quit the program.");
             choice = Integer.parseInt(input.nextLine());
 
             switch (choice){
