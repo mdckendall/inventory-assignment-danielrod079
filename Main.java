@@ -41,7 +41,8 @@ class Main {
                     Press 2 to delete an item.
                     Press 3 to update an item.
                     Press 4 to show all the items.
-                    Press 5 to quit the program.""");
+                    Press 5 to quit the program.
+                               """);
             choice = Integer.parseInt(input.nextLine());
 
             switch (choice){
