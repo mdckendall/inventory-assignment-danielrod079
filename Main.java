@@ -74,7 +74,7 @@ class Main {
                     serial = input.nextLine();
                     for (int i = 0 ; i < Item.size(); i++ ){
                         if(Item.get(i).getSerialNum().contains(serial)){
-                            System.out.println("Enter the new name: ");
+                            System.out.println("Enter the new name:");
                             name = input.nextLine();
                             Item.get(i).newName(name);
                             System.out.println("Enter the new value in dollars (whole number):");
@@ -89,7 +89,7 @@ class Main {
                     for (int i = 0 ; i < Item.size(); i++ ){
                         System.out.print(Item.get(i).name + ",");
                         System.out.print(Item.get(i).serialNum + ",");
-                        System.out.println("$"+ Item.get(i).cost);
+                        System.out.println(Item.get(i).cost);
                     }
                     break;
                     //if choice == 5, program ends.
